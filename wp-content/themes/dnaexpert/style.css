@@ -1,10 +1,135 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Sep 16, 2016, 7:13:57 AM
-    Author     : paintboy602
+Theme Name: DNA Expert
+Them URI:
+Author: CBM Web Development 
+Author URI: http://www.cbmwebdevelopment.com/
+Description: DNA Expert is a custom theme for the DNA Expert website. 
+Version: 1.0
+License: GNU General Public License v2 or Later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: DNA Expert
 */
 
+/*
+Navbar Style
+*/
+
+.navbar{
+    background:rgb(0,0,0);
+    border-radius:0px;
+}
+
+.navbar-nav li a, .navbar-brand{
+    color:rgb(256,256,256);
+    cursor:pointer;
+}
+
+.navbar-nav li a:hover{
+    color:rgb(0,0,0);
+}
+
+.navbar-brand:hover{
+    color:rgb(256,256,256);
+}
+
+/*
+Home Style
+*/
+
+.main__header a{
+    color:#000000;
+}
+
+.main__top-story a h1, .main__top-story a h4{
+    color:#000000;
+}
+
+.main__top-story a:hover h1 , .main__top-story a:hover h4 {
+    color:red;
+    text-decoration: none !important;
+}
+.recent-stories{
+    margin-top: 10px;
+}
+
+.recent-stories li{
+    list-style: none;
+    border-bottom:1px solid #000000;
+    font-size:1.5em;
+}
+
+.recent-stories li a{
+    color:#000000;
+}
+
+.recent-stories li a:hover{
+    text-decoration:none;
+}
+
+.recent-stories li:hover{
+    background:#f0f0f0;
+}
+
+.recent-stories li:first-of-type{
+    background-color:#000000;
+    color:#ffffff;
+    font-size:2em;
+    font-weight:bold;
+    text-align: center;
+}
+
+.recent-stories li:last-of-type{
+    border-bottom:none;
+}
+
+.main__body a h2{
+    color:#000000;
+}
+
+.main__body a:hover h2{
+    text-decoration: none;
+}
+
+.main__body a img{
+    width:400px;
+    height:300px;
+}
+
+/*
+Content-Blog Style
+*/
+
+.related li{
+    list-style:none;
+}
+
+.related li:first-of-type{
+    font-size:2em;
+    color:#ffffff;
+    background:#000000;
+    padding:5px;
+    text-align:center;
+}
+
+.related li a{
+    color:#000000;
+    font-size:1.25em;
+}
+
+.related li:hover a{
+    text-decoration:none;
+}
+
+.related li:hover{
+    background:#f2f2f2;
+}
+
+/*
+Footer Style
+*/
+
+footer p{
+    width:100%;
+    background:#000000;
+    color:#ffffff;
+}

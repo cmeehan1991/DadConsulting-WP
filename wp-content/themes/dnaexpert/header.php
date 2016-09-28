@@ -21,18 +21,17 @@
         <!--Stylesheet-->
         <link type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet"/>
 
+        <title><?php bloginfo('title');?></title>
         <?php wp_head(); ?>
     </head>
     <body>
-        <header>
-            <nav class="navbar-default">
+        <header class="header">
+            <nav class="navbar">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand"><?php bloginfo('title'); ?></a>
+                        <a class="navbar-brand" href="<?php bloginfo('home');?>"><?php bloginfo('title'); ?></a>
                     </div>
-                    <ul class=" nav navbar-nav navbar-right">
-                        <li><a href="">Home</a></li>
-                    </ul>
+                    <?php wp_nav_menu(array('menu'=>'Navigation Menu','menu_class' => 'nav navbar-nav navbar-right')); ?>
                 </div>
             </nav>
         </header>
